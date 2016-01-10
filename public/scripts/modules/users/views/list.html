@@ -1,0 +1,20 @@
+<div class="container">
+    <table class="u-full-width">
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>Email</th>
+                <th>Address</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr ng-repeat="user in users">
+                <td>
+                    <a ui-sref="view({ id: user.id })">{{user.name}}
+                </td>
+                <td>{{user.email}}</td>
+                <td>{{user.address}}</td>
+            </tr>
+        </tbody>
+    </table>
+</div>
