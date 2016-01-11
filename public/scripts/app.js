@@ -1,6 +1,11 @@
 'use strict';
 
-let app = angular.module('app', ['ui.router', 'restangular']);
+import angular from 'angular';
+import router from 'angular-ui-router';
+import 'lodash';
+import 'restangular';
+
+let app = angular.module('app', [router, 'restangular']);
 
 //Routes
 app.config(($urlRouterProvider, RestangularProvider) => {
