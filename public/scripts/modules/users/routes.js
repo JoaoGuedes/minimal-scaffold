@@ -10,12 +10,12 @@ app.config($stateProvider => {
             .state('list', {
                 url: '/users',
                 controller: ListController,
-                templateUrl: 'scripts/modules/users/views/list.html'
+                template: require('./views/list.html')
             })
             .state('view', {
                 url: '/users/:id',
                 controller: ViewController,
-                templateUrl: 'scripts/modules/users/views/view.html'
+                template: require('./views/view.html')
             });
 
     }
