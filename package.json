@@ -16,11 +16,15 @@
     "concurrently": "^1.0.0",
     "node-sass": "^3.4.2",
     "nodemon": "^1.8.0",
+    "raw-loader": "^0.5.1",
     "webpack": "^1.12.2",
     "webpack-dev-server": "^1.12.1"
   },
   "dependencies": {
+    "angular": "^1.4.8",
+    "angular-ui-router": "^0.2.15",
     "lodash": "^3.10.1",
+    "restangular": "^1.5.1",
     "restify": "^4.0.3"
   }
 }

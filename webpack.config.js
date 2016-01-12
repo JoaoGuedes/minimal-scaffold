@@ -37,6 +37,8 @@ module.exports = {
         ]
     },
 
+    devtool: 'source-map',
+
     devServer: {
         proxy: {
             '/api*': {
